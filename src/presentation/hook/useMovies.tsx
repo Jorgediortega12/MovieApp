@@ -42,13 +42,6 @@ export const useMovies = () => {
     setTopRatedMovie(topRatedMovies);
 
     setIsLoading(false);
-
-    // console.log({
-    //   nowPlayingMovies,
-    //   upComingMovies,
-    //   popularMovies,
-    //   topRatedMovies,
-    // });
   };
 
   return {
